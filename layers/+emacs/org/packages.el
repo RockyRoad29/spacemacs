@@ -20,12 +20,13 @@
     htmlize
     mu4e
     ;; ob, org and org-agenda are installed by `org-plus-contrib'
-    (ob :location built-in)
-    (org :location built-in)
-    (org-agenda :location built-in)
+    ;; which is loaded from core layers/+spacemacs/spacemacs-org/packages.el
+    ;; (ob :location built-in)
+    ;; (org :location built-in)
+    ;; (org-agenda :location built-in)
     org-download
     ;; org-mime is installed by `org-plus-contrib'
-    (org-mime :location built-in)
+    ;; (org-mime :location built-in)
     org-pomodoro
     org-present
     (org-projectile :toggle (configuration-layer/package-usedp 'projectile))
